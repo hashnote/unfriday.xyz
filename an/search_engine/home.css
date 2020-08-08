@@ -1,0 +1,307 @@
+/* Change the white to any color ;) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+}
+/*Change text in autofill textbox*/
+input:-webkit-autofill {
+    -webkit-text-fill-color: #111 !important;
+}
+
+
+*:focus {
+    outline: none;
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: #fff;
+  
+}
+form.example {
+  width: 95%;
+  border: 0px solid red;
+  margin-left: auto;
+  background: #fff;
+  margin-right: auto;
+  border-radius: 4px;
+  display: block;
+  box-shadow: 0px 0px 5px 5px rgba(1,1,1,.13);
+  
+}
+
+
+form.example input[type=text] {
+  padding: 12px 5px 12px 35px;
+  font-size: 14px;
+  border: 0px solid #2b2b2b;
+  width: 85%;
+  background: #fff;
+  color: #111;
+  border-right: 0px;
+  border-radius:4px 0 0 4px;
+  font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+form.example:hover {
+  box-shadow: 0px 0px 5px 5px rgba(1,1,1,.18);
+  outline: none;
+}
+
+form.example button {
+  width: 15%;
+  padding: 13px 5px;
+  background: #fff;
+  color: #111;
+  border: 0px solid #2b2b2b;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  border-left: 0px;
+}
+
+
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.uploader {
+	color: red;
+}
+ a {
+	text-decoration: none;
+}
+table {
+	margin-bottom: 34px;
+	border: 0px solid red;
+}
+
+.hline { width:100%; height:1px; background: #ebebeb;}
+* {
+  box-sizing: border-box;
+}
+li a {
+	text-align: center;
+}
+td, th {
+  border: 0px solid #dddddd;
+}
+td {
+	padding: 11px 0;
+}
+tr:nth-child(even){
+	background-color: 	#f9f9f9;
+}
+tr {
+	background-color: 	#fff;
+	
+}
+tr:hover {
+	
+}
+th {
+  background-color: #fff;
+  color: #111;
+  padding: 5px 0px;
+}
+
+.logopng{
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+.seeds {
+	color: #76b852;
+	text-align: center;
+	font: normal small-caps 12px -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+	font-weight: bold;
+}
+.leeches {
+	color: #f46b45;
+	text-align: center;
+	font: normal small-caps 12px -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+	font-weight: bold;
+}
+.size {
+	color: rgb(66, 133, 244);
+	text-align: center;
+	font: normal small-caps 11px -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+	margin-left: 5px;
+	font-weight: bold;
+}
+.dateadded{
+	color: #717171;
+	text-align: center;
+	font: normal small-caps 11px -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+table {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0 0 0 0;
+	border: 0px solid red;
+	color: #FFA17F;
+	font: normal small-caps 11px -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px 5px rgba(1,1,1,.1);
+	margin-top: 12px;
+}
+table .name a {
+	text-decoration: none;
+	font: normal 14px/30px monospace;
+	font-size: 12px;
+	color: #1e3c72;
+	word-break: break-all;
+	width: 0px;
+	font-weight: bold;
+	line-height: 1.8;
+}
+
+
+table a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-size: 0.000000000000000000000000001px;
+	color: #a5a5a5;
+	text-align: right;
+	margin-left: 0px;
+}
+table a:hover {
+	text-decoration: underline;
+	
+}
+.date02 {
+	font-size: 12px;
+	color: #a5a5a5;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding-bottom: 0px;
+}
+
+.footer {
+	text-align: center;
+}
+.footer01 a {
+	color: #717171;
+}
+.footer01 a:hover {
+	color: #111;
+}
+.footer02 a {
+	color: #717171;
+}
+.footer02 a:hover {
+	color: #111;
+}
+.footer01 {
+	display: inline;
+	background-color: #f1f1f1;
+	padding: 8px 20px;
+	float: left;
+	margin-left: 5px;
+	font: normal small-caps 14px -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.footer02 {
+	display: inline;
+	padding: 8px 20px;
+	background-color: #f1f1f1;
+	font: normal small-caps 14px -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+	float: right;
+	margin-right: 5px;
+	
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  font-family: Arimo,Arial,Helvetica,lucida grande,sans-serif; 
+}
+
+.overlay-content {
+  position: relative;
+  top: 2%;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  font-family: Arimo,Arial,Helvetica,lucida grande,sans-serif; 
+}
+
+.overlay a {
+  padding: 30px;
+  font-family: Arimo,Arial,Helvetica,lucida grande,sans-serif; 
+  text-decoration: none;
+  font-size: 09px;
+  color: #818181;
+  display: block;
+  transition: 0.1s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 09px;
+}
+
+
+
+ @media screen and (min-width: 600px) {
+	 .redman789 {
+		 margin-left: auto;
+		 margin-right: auto;
+		 display: block;
+		 width: 600px;
+	 }
+ }
+
+
+
+
